@@ -1,0 +1,27 @@
+MOODS — MOBILE TRAINING
+=======================
+
+INSTALLATION GITHUB
+1. Décompresser l'archive.
+2. Déposer TOUS les fichiers à la racine du dépôt GitHub.
+3. Ne pas créer de dossier assets.
+4. Activer GitHub Pages sur la branche et le répertoire racine.
+5. Ouvrir le site une première fois avec Internet pour mettre les éléments en cache.
+
+STRUCTURE
+- index.html : application responsive (10 diapositives)
+- service-worker.js : cache hors ligne, version v2
+- manifest.json : configuration PWA
+- hero-*.jpg : images d'ambiance recadrées pour l'affichage portrait
+- pack-*.jpg : visuels produit complets, un par référence
+- 01-accueil.jpg à 10-gout-prefere.jpg : visuels sources d'origine conservés
+- accueil-portrait.jpg : version portrait du visuel d'accueil
+- favicon.png et icon-*.png : icônes
+
+NAVIGATION
+- Balayage horizontal, boutons précédent/suivant ou points.
+- Les diapositives produit défilent verticalement si nécessaire sur les petits écrans.
+- Le service worker est versionné v2 pour forcer le renouvellement du cache.
+
+NOTE
+Les images produit ont été extraites des visuels sources fournis. Les fichiers sources originaux sont conservés dans l'archive.
